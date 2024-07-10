@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <!--<script src="script.js"></script>-->
+   <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+
+    <div id="card">
+        <img src="https://scontent.fdel64-1.fna.fbcdn.net/v/t1.6435-9/141635455_2866752093612501_8442809824970149857_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=13d280&_nc_ohc=WvEB2L9FSDoQ7kNvgHQ4JVX&_nc_ht=scontent.fdel64-1.fna&oh=00_AYDDTF8EL_jxx28-MeIPVjQ_inMCexSR9I-n7RPG5aFUoA&oe=66B4C196" alt="" srcset="">
+        <h1>Vipin Kumar</h1>
+        <h5>Stranger</h5>
+        <div id="btn-container">
+            <button id="add">Add Friend</button>
+        </div>
+    </div>
+    <!-- <div id="bulb">
+    </div>
+    <button>On/Off</button> -->
+    <script src="idex.js"></script>
+</body>
+
+</html>
+
+
+
+
+<script>
+    //  var a = document.querySelector("h1")
+    //  // a.innerHTML = "Vipin" //change text using innerhtml
+     
+    //  a.style.backgroundColor = "blue"
+    //  a.style.color = "black"
+
+   
+    
+    // a.addEventListener("click", function(){
+    //     a.innerHTML = "Shaktiman"
+    // })
+
+
+   // var a = document.querySelector("h1")
+
+   var bulb = document.querySelector("#bulb")
+    var btn = document.querySelector("button")
+
+    var flag = 0;
+
+    btn = addEventListener("click", function(){
+        if(flag == 0){
+            bulb.style.backgroundColor = "Yellow"
+            flag = 1
+        }else{
+            bulb.style.backgroundColor="transparent"
+            flag = 0
+        }
+        
+    })
+    
+    
+</script>
